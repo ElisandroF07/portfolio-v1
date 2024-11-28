@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
-  const { ref } = useSectionInView("About");
+  const { ref } = useSectionInView("Sobre");
 
   return (
     <motion.section
@@ -15,35 +15,24 @@ export default function About() {
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
-      id="about"
+      id="sobre"
     >
-      <SectionHeading>About me</SectionHeading>
+      <SectionHeading>Sobre mim</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        Meu nome é Elisandro Franco, e minha jornada começou no Instituto Médio de Economia de Luanda (IMEL), 
+        onde estudei Informática de Gestão. Com o desejo de expandir meus conhecimentos e me aprofundar no mundo da tecnologia, 
+        entrei na <span className="font-medium">42 Luanda</span>, uma escola inovadora de programação, onde continuo a desenvolver minhas habilidades em <span className="font-medium">desenvolvimento de software</span>.{" "}
+        <span className="italic">Minha maior paixão na programação</span> é a capacidade de resolver problemas complexos e transformar ideias em soluções práticas. 
+        Com experiência em tecnologias como React, Next.js, Node.js e PostgreSQL, estou constantemente me desafiando a aprender e implementar novas ferramentas e práticas, incluindo TypeScript, Prisma, e arquitetura de software limpa.
       </p>
-
+  
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        <span className="italic">Quando não estou codando</span>, gosto de passar meu tempo explorando novos conhecimentos, seja lendo, estudando sobre 
+        <span className="font-medium">neurociência</span> ou <span className="font-medium">práticas de Clean Code</span>. 
+        Também gosto de me dedicar a hobbies como leitura, assistir filmes e passar tempo com minha família. 
+        Estou sempre motivado a crescer, aprender e colaborar em projetos que tenham um impacto positivo.
       </p>
     </motion.section>
   );
+  
 }
