@@ -27,8 +27,8 @@ export default function About() {
       </p>
   
       <p>
-        <span className="italic">Quando não estou codando</span>, gosto de passar meu tempo explorando novos conhecimentos, seja lendo, estudando sobre 
-        <span className="font-medium">neurociência</span> ou <span className="font-medium">práticas de Clean Code</span>. 
+        <span className="italic">Quando não estou programando</span>, gosto de passar meu tempo explorando novos conhecimentos, seja lendo, estudando sobre 
+        <span className="font-medium"> neurociência</span> ou <span className="font-medium">práticas de Clean Code</span>. 
         Também gosto de me dedicar a hobbies como leitura, assistir filmes e passar tempo com minha família. 
         Estou sempre motivado a crescer, aprender e colaborar em projetos que tenham um impacto positivo.
       </p>
